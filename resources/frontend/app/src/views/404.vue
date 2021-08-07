@@ -1,0 +1,26 @@
+<template>
+  <div class="wrapper-content wrapper-content--fixed">
+    <section>
+      <div class="container">
+        <h1 class="title">СТРАНИЦА НЕ НАЙДЕНА!</h1>
+        <p>Перейти <router-link to="/" class="link">на главную?</router-link></p>
+      </div>
+    </section>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "404"
+}
+</script>
+
+<style lang="scss" scoped>
+.wrapper-content{
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+</style>
